@@ -33,3 +33,5 @@ function u(t) {
   for(i=9;i--;)x.fillRect(400+i*100+S(t)*300,400,50,200)
 }
 ```
+
+Demo: https://codepen.io/atesgoral/pen/GQQgqV
