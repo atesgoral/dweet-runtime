@@ -21,8 +21,8 @@ Create a `<canvas>` element with id "c":
 Optionally, style the canvas to a certain size or to fit the display area:
 
 ```css
-body { padding: 0; margin: 0; background: #fff }
-#c { width: 192px; height: 108px; zoom: 3 }
+body { padding: 0; margin: 0; background: #fff; }
+#c { width: 768px; height: 432px; }
 ```
 
 Then, simply define your `u` function and you're good to go:
@@ -30,6 +30,6 @@ Then, simply define your `u` function and you're good to go:
 ```js
 function u(t) {
   c.width|=0
-  x.fillRect(50+C(t)*25,50+S(t)*25,50,50)
+  for(i=9;i--;)x.fillRect(400+i*100+S(t)*300,400,50,200)
 }
 ```
