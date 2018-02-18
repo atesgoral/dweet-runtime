@@ -1,6 +1,6 @@
 # dweet-runtime
 
-This is a browser runtime for [dweets](https://www.dwitter.com). You can include it from JavaScript playgrounds like [CodePen](https://codepen.io/) or [jsFiddle](https://jsfiddle.net/) as a third-party library. Useful for embedding dweets in an article.
+This is a browser runtime for [dweets](https://www.dwitter.net). You can include it from JavaScript playgrounds like [CodePen](https://codepen.io/) or [jsFiddle](https://jsfiddle.net/) as a third-party library. Useful for embedding dweets in an article.
 
 ## Usage
 
@@ -18,7 +18,7 @@ Create a `<canvas>` element with id "c":
 <canvas id="c"></canvas>
 ```
 
-Optionally style the canvas to a certain size or to fit the display area:
+Optionally, style the canvas to a certain size or to fit the display area:
 
 ```css
 body { padding: 0; margin: 0; background: #fff }
