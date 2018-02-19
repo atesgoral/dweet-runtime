@@ -21,16 +21,17 @@ Create a `<canvas>` element with id "c":
 Optionally, style the canvas to a certain size or to fit the display area:
 
 ```css
+html, body { height: 100%; overflow: hidden; }
 body { padding: 0; margin: 0; background: #fff; }
-#c { width: 768px; height: 432px; }
+#c { width: 100%; }
 ```
 
 Then, simply define your `u` function and you're good to go:
 
 ```js
 function u(t) {
-  c.width|=0
-  for(i=9;i--;)x.fillRect(400+i*100+S(t)*300,400,50,200)
+c.width|=0
+for(i=9;i--;)x.fillRect(400+i*100+S(t)*300,400,50,200)
 }
 ```
 
